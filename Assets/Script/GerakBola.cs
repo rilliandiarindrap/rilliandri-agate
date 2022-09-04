@@ -20,5 +20,8 @@ public class GerakBola : MonoBehaviour
         transform.position = resetPosition;
     }
 
-    // Update is called once per frame
+    public void ActivatePUSpeedUp(float magnitude)
+    {
+        rig.velocity *= magnitude;
+    }
 }
