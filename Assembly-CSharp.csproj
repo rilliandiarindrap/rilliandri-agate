@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Play.cs" />
+    <Compile Include="Assets\Script\PUPaddleScale.cs" />
+    <Compile Include="Assets\Script\PUPaddle.cs" />
     <Compile Include="Assets\Script\GerakBola.cs" />
     <Compile Include="Assets\Script\GerakPemukul.cs" />
     <Compile Include="Assets\Script\PUSpeedUpController.cs" />

@@ -10,10 +10,18 @@ public class Play : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 
+    public void BackMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
     public void OpenAuthor()
     {
         Debug.Log("Created by Yandi");
     }
-        
+    public void Credit()
+    {
+        SceneManager.LoadScene("CreditS");
+    }
+
 
 }
